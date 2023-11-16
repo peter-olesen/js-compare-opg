@@ -5,10 +5,11 @@ const B = 30;
 const C = '30';
 const D = 10;
 const E = 40;
+const F = null;
 
 // Opgave 1: skriv et expression der viser true når A er lig med B eller A er lig med D.
 
-if ( /*..dit expression Her*/ ) {
+if ( A == B || A == D ) {
     console.log('statement true!');
 }
 
@@ -25,3 +26,6 @@ if ( /*..dit expression Her*/ ) {
 
 
 //opgave 4: Skriv en If then statement der kan finde ud af om F er "undefined" eller har en værdi, ved at bruge !.
+if (!F) {
+    console.log('F is empty')
+}
